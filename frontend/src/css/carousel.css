@@ -1,0 +1,48 @@
+.caro {
+    margin: auto;
+    width: 53%;
+    height: 400px;
+
+}
+
+.caro_item_1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/banner/caro_1.jpg);
+    margin: auto;
+
+}
+
+[carousel] {
+    margin: 5%;
+}
+
+.caro_item_2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/banner/caro_2.jpg);
+    margin: auto;
+
+}
+
+.caro_item_3 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/banner/caro_3.jpg);
+    margin: auto;
+
+}
+
+.caro_item_4 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/banner/caro_4.jpg);
+    margin: auto;
+}
+
+.caro_item_5 {
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/images/banner/caro_5.jpg);
+    margin: auto;
+}

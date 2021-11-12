@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**----------------------*/
+/**head*/
+/**----------------------*/
+
+.logo {
+  border-radius: 8px;
+}
+
+.logo:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px blue;
+  -webkit-box-shadow: 0px 0px 15px 15px blue;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.navbar {
+  background: linear-gradient(70deg, darkblue, blue);
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: underline red;
+}
+
+/*
+fondo
+*/
+
+body {
+  font-size: 28px;
+  font-family: "Josefin Slab", sans-serif;
+  background: #275ed5;
+  color: white;
+}
+/*
+parrafo
+*/
+p {
+  font-size: 14px;
+  color: black;
+  text-decoration: underline #d3d0d0;
+}
+
+/*
+Cerrar Sesion
+*/
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*
+subrayado ondulado
+*/
+a:hover {
+  text-decoration: underline wavy red;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*
+cuadro donde va el texto
+*/
+.contenedor {
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  margin-top: 9.5%;
+  border-bottom: 10px solid #303030;
+}
+
+/*
+titulo dentro de la pagina
+*/
+/**
+.titulo {
+  font-weight: 1000;
+  color: red;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  text-shadow: 2px 2px 2px white, 4px 4px 4px black;
+  margin: 60px 0 30px 0;
+  text-decoration: underline overline; linea arriba - abajo 
+}
+*/
+
+/*
+titulo de sesion
+*/
+.sesion {
+  font-weight: 1000;
+  font-size: 35px;
+  color: red;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  text-shadow: 2px 2px 2px white, 4px 4px 4px black;
+  margin: 60px 0 30px 0;
+  text-decoration: overline;
+}
+
+/*
+la linea sobre el cuadro de texto
+*/
+.border {
+  border: none;
+  margin-bottom: 5px;
+  border-top: 15px dotted red;
+  background: none;
+  color: none;
+}
+/*
+cuadro grande del formulario
+*/
+.formulario {
+  background: #2c2c47;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 3px inset white;
+}
+
+.formulario .from-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*
+los cuadros donde se escribe el usuario y pass
+*/
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="password"] {
+  padding: 15px;
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  border: 3px solid #2c2c47;
+  vertical-align: none;
+}
+/*
+los iconos de dibujo
+*/
+.formulario .icono {
+  padding: 15px;
+  text-align: center;
+  width: 48px;
+  max-height: 48px;
+  font-size: 18px;
+  line-height: 18px;
+  background: #c8c8c8;
+  display: inline-block;
+  color: #535252;
+  vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+  margin-right: 4px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/*
+los cuadros donde se escribe el usuario y pass
+*/
+.formulario .usuario,
+.formulario .password {
+  width: calc(100% - 52px);
+  -webkit-border-radius: 20px 10px 10px 20px;
+  -moz-border-radius: 20px 10px 10px 20px;
+  -ms-border-radius: 20px 10px 10px 20px;
+  -o-border-radius: 20px 10px 10px 20px;
+  border-radius: 20px 10px 10px 20px;
+}
+/*
+repetir contraseña
+*/
+.formulario .password_btn {
+  width: calc(100% - 52px);
+  -webkit-border-radius: 20px 10px 10px 20px;
+  -moz-border-radius: 20px 10px 10px 20px;
+  -ms-border-radius: 20px 10px 10px 20px;
+  -o-border-radius: 20px 10px 10px 20px;
+  border-radius: 20px 10px 10px 20px;
+}
+/*
+el cuadro de error de registro
+*/
+.formulario .errores ul {
+  padding: 15px 15px;
+}
+
+.formulario .errores ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  background: grey;
+  color: white;
+  border: 1px inset red;
+  border-radius: 20px;
+  font-size: 16px;
+}
+/*
+la flecha de envios
+*/
+.formulario .submit-btn {
+  padding: 15px;
+  text-align: center;
+  width: 110px;
+  max-height: 48px;
+  font-size: 18px;
+  line-height: 18px;
+  background: #679863;
+  display: inline-block;
+  color: #fff;
+  background: #769766;
+  cursor: pointer;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.formulario .submit-btn:hover {
+  color: #23d80d;
+  background: #0e5a05;
+  text-shadow: 2px 2px 2px black;
+}
+
+.texto-registrate {
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.texto-registrate a {
+  display: block;
+  font-size: 20px;
+  color: #e7015e;
+}
+
+.texto-registrate a:hover {
+  cursor: default;
+  font-size: 21px;
+  text-shadow: 2px 2px 2px black;
+}
+/*
+ el cuadro donde va el texto
+ */
+.contenido article {
+  padding: 30px;
+  background: grey;
+}
+
+/**----------------------*/
+/**citologia*/
+/**----------------------*/
+
+.encabezado {
+  color: black;
+  background: white;
+  text-align: center;
+  border: 2px solid red;
+}
+
+/**Asignar*/
+
+.form_logo {
+  margin: 0 0 10px 180px;
+}

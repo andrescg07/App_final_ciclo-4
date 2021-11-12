@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.primera {
+  color: whitesmoke;
+  margin: 2% 0 2% 0;
+  text-align: center;
+}
+
+.card_dpta {
+  margin: 1% 3% 5% 3%;
+}
+
+.m_info {
+  max-width: 50%;
+  padding: 2% 0 2% 0;
+  margin: auto;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.m_info:hover {
+  box-shadow: 5px 5px 5px blue;
+}
+
+.card_caracteristicas {
+  margin: 1% 3% 1% 3%;
+}
+
+.ver_dpta {     
+  margin: 0 0 0 20%;
+}
+
+.piecito {
+  background-image: url(assets/images/banner/leanr_bg.png);
+  margin: 3% 0 0 0;
+}
+
+.figurita:before {
+  position: absolute;
+  left: 97%;
+  bottom: 40%;
+  right: 0;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/Direction_memphis1.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.figurita1:before {
+  position: absolute;
+  left: -28%;
+  bottom: -39%;
+  right: 0;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/subscribe_slice_left.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.figurita2:before {
+  position: absolute;
+  left: 0;
+  bottom: 35%;
+  right: 96%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/news_memphis1.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.figurita3:before {
+  position: absolute;
+  left: 26%;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/shap1.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.figurita4:before {
+  position: absolute;
+  left: 0;
+  bottom: -45%;
+  right: 95%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/home_speaker_memphis1.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.figurita5:before {
+  position: absolute;
+  left: 94%;
+  bottom: 35%;
+  right: 0;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background: url(assets/images/shap/home_speaker_memphis2.png) no-repeat center center;
+  max-width: 100%;
+  height: 100%;
+  content: '';
+}
