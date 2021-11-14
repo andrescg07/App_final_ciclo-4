@@ -45,7 +45,7 @@ const vistaHomepage = () => {
                                     <div class="countdown wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="800ms">
                                             <div class="counter-item">
                                                 <i class="icon icon-ring-1Asset-1"></i>
-                                                <span class="days">07</span>
+                                                <span class="days">14</span>
                                                 <div class="smalltext">Día</div>
                 
                                             </div>
