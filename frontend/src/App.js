@@ -5,6 +5,7 @@ import vistaContrato from "./views/vistaContrato"
 import pruebita from "./views/pruebita";
 import vistaLogin from "./views/vistaLogin";
 import vistaAdmin from "./views/vistaAdmin";
+import createApartament from './views/createApartament'
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Route path="/prueba" component={pruebita}  />
         <Route path="/Login" component={vistaLogin}  />
         <Route path="/admin" component={vistaAdmin}  />
+        <Route path="/create-apartament" component={createApartament}  />
+        
         
       </Router>
     </div>
